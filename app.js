@@ -36,7 +36,7 @@ const options={
   auth: "anupriya1:b8f16b0de9dd6a96ea9b6014aa30e19d-us6"   //any name : api key
 }
 const request= https.request(url,options,function(response){
-  console.log(response.statusCode)
+  // console.log(response.statusCode)
   // details fill krr
   if(response.statusCode===200){
     res.sendFile(__dirname+"/success.html");
@@ -44,7 +44,7 @@ const request= https.request(url,options,function(response){
     res.sendFile(__dirname+"/fail.html");
   }
   response.on("data",function(data){
-    console.log(JSON.parse(data));
+    // console.log(JSON.parse(data));
     //ek spellling mistake ki kimat tm kya jano.........ashi babu hahahahhupppp
     //
   });
@@ -63,5 +63,5 @@ app.listen(process.env.PORT || 3000,function(){
 });
 
 //b8f16b0de9dd6a96ea9b6014aa30e19d-us6
-
+// prob kya aari?
 //e88379cf64
