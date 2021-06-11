@@ -44,9 +44,9 @@ const request= https.request(url,options,function(response){
     res.sendFile(__dirname+"/fail.html");
   }
   response.on("data",function(data){
-    // console.log(JSON.parse(data));yayyyyyyyy
+    console.log(JSON.parse(data));
     //ek spellling mistake ki kimat tm kya jano.........ashi babu hahahahhupppp
-    // 
+    //
   });
 })
 
