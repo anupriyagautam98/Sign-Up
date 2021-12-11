@@ -45,7 +45,6 @@ const request= https.request(url,options,function(response){
   }
   response.on("data",function(data){
     // console.log(JSON.parse(data));
-    //ek spellling mistake ki kimat tm kya jano.........ashi babu hahahahhupppp
     //
   });
 })
@@ -63,5 +62,4 @@ app.listen(process.env.PORT || 3000,function(){
 });
 
 //b8f16b0de9dd6a96ea9b6014aa30e19d-us6
-// prob kya aari?
 //e88379cf64
